@@ -1,0 +1,2 @@
+structure of the programm and most of the general board game code:
+https://youtu.be/jzCxywhTAUI
