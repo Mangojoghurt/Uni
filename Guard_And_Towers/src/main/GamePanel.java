@@ -133,14 +133,12 @@ public class GamePanel extends JPanel implements Runnable {
                             col += c - '0';
                         }
                         else if (tower.equals("red")){
-                            int number = c - '0';
-                            pieces.add(new Tower(RED,col,row,number));
+                            pieces.add(new Tower(RED,col,row,c - 48));
                             tower = "no";
                             col++;
                         }
                         else if (tower.equals("blue")){
-                            int number = c - '0';
-                            pieces.add(new Tower(BLUE,col,row,number));
+                            pieces.add(new Tower(BLUE,col,row,c - 48));
                             tower = "no";
                             col++;
                         }
