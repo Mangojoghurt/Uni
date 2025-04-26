@@ -147,7 +147,7 @@ public class GamePanel extends JPanel implements Runnable {
                     }
                 }
             } catch (Exception e) {
-                throw new IllegalArgumentException("incorrect FEN-String");
+                throw new IllegalArgumentException("incorrect FEN-String: " + e.getMessage(), e);
             }
         }
         //check for illegal amount of towers (more than 7)
